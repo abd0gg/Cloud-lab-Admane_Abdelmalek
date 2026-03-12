@@ -1,0 +1,42 @@
+body {
+    background-color: #eaf4ff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #0077cc;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+p {
+    color: #333;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+p:last-of-type {
+    background-color: gold;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.image-container {
+    margin-top: 20px;
+}
+
+.image-container img {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
